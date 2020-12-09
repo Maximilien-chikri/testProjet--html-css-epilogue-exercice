@@ -1,0 +1,38 @@
+/* header et banner */
+body{
+    margin: 0;
+    background-color: rgb(184, 163, 163);
+}
+.banner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+header .banner img{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+header .banner h1, header .banner hr, header .banner p{
+    z-index: 1;
+    position: absolute;
+}
+/* magna maximus */
+section:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+section:first-of-type .sous-text{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10% 20% 10% 20%;
+}
+section:first-of-type i{
+    border: black solid 1px;
+    padding: 3%;
+    border-radius: 50%;
+}
+/* cards */
+
